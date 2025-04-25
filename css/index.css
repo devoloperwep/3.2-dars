@@ -1,0 +1,131 @@
+@import "./global.css";
+.header__talent {
+  height: 100vh;
+  background: url("../images/bg-pattern-home-1.svg"),
+    url("../images/bg-pattern-home-2.svg");
+  background-repeat: no-repeat;
+  background-position: left -100px top 330px, right 165px bottom;
+}
+/* talent */
+.talent {
+  padding-top: 129px;
+  margin-bottom: 250px;
+}
+.talant__container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.talent__title {
+  font-size: var(--font-size-h1-large);
+  line-height: var(--line-height-h1-large);
+}
+.talent__about {
+  width: 445px;
+}
+.talent__divider {
+  background: var(--color-rapture-blue);
+}
+.talent__description {
+  font-size: var(--font-size-body-1);
+  margin-top: 80px;
+}
+
+/* Management */
+.management {
+  background: var(--color-sacramento-state-green);
+  background-image: url("../images/bg-pattern-home-3.svg");
+  background-repeat: no-repeat;
+  background-position: 1421px bottom;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.management__divider {
+  background: var(--color-light-coral);
+}
+.management__works {
+  margin-top: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+.management__title {
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
+}
+.management__methods {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.management__type {
+  display: flex;
+  gap: 23px;
+}
+.management__type-img {
+  object-fit: contain;
+}
+.management__type-title {
+  font-size: var(--font-size-h3);
+  line-height: var(--line-height-h3);
+  margin-bottom: 16px;
+}
+.management__type-description {
+  opacity: 0.8;
+  font-size: var(--font-size-body-2);
+}
+/* Results */
+.result {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: var(--color-deep-jungle-green);
+  background-image: url("../images/bg-pattern-home-4-about-3.svg"),
+    url("../images/bg-pattern-home-5.svg");
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+}
+.result__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.result__title {
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
+  margin-bottom: 56px;
+}
+.result__title-mark {
+  color: #79c8c7;
+}
+.result__cards {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.result__card {
+  padding-top: 36px;
+  background: url("../images/icon-quotes.svg") no-repeat;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+}
+.result__card-desctiption {
+  margin-bottom: 24px;
+}
+.result__card-author {
+  color: #79c8c7;
+  margin-bottom: 2px;
+}
+.result__card-job {
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+.result__card-img {
+  border-radius: 50%;
+  border: 2px solid #c4fffe;
+  cursor: pointer;
+}
